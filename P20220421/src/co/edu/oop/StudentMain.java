@@ -15,7 +15,7 @@ public class StudentMain {
 				
 				Scanner sc = new Scanner(System.in); //입력 스캐너 필요함
 				
-				Student std = new Student (2018114173, "오지민", 86, 62, 90);
+				Student st = new Student (2018114173, "오지민", 86, 62, 90);
 				
 				int menu =0;
 				
@@ -29,12 +29,12 @@ public class StudentMain {
 					
 					if(menu == 1) {
 						System.out.println("기본정보 확인->");
-						std.info();
+						st.info();
 					
 					}
 					else if(menu == 2) {
 						System.out.println("점수평균 확인->");
-						std.avg();
+						st.avg();
 											
 					}
 					else if(menu == 3) {
