@@ -11,11 +11,11 @@ public class Main2 {
 		
 		//자식 클래스의 오버라이드한 fly 메소드
 		sa.fly();
-		sa.flyMode = SuperSonicAirPlane.SUPERSONIC;
+		//sa.flyMode = SuperSonicAirPlane.SUPERSONIC;
 		
 		//자식 클래스의 오버라이드한 fly 메소드
 		sa.fly();
-		sa.flyMode = SuperSonicAirPlane.NORMAL;
+		//sa.flyMode = SuperSonicAirPlane.NORMAL;
 		
 		//자식 클래스의 오버라이드한 fly 메소드
 		sa.fly();
